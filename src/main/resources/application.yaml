@@ -1,0 +1,14 @@
+app:
+  jwt:
+    key: "yxlcjwnMI3LnTKs2vETZtyx5QXf6zt7KGfHZ/wGw+VbqdZuPBOWu0F4n0gRVYvdm"
+    algorithm: HS256
+    issuer: http://localhost:8080
+    expiresIn: 1d
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/loyal-luna
+    username: postgres
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
